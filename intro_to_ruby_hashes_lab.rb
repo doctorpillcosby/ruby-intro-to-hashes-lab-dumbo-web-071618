@@ -1,21 +1,21 @@
-require 'pry'
- def new_hash	 def new_hash
--	+  hash = {}
- end	 end
+
+ def new_hash
+ hash = {}
+ end	 
  	 
- def actor	 def actor
--	+  dwayne = { name: 'Dwayne The Rock Johnson' }
- end	 end
+	 def actor
+  dwayne = { name: 'Dwayne The Rock Johnson' }
+	 end
  	 
- def monopoly	 def monopoly
+ def monopoly
 -	monopoly = {}	+	monopoly = { railroads: {} }
  	 
- end	 end
+	 end
  	 
- def monopoly_with_second_tier	 def monopoly_with_second_tier
+def monopoly_with_second_tier
  	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!	 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 -		+	monopoly = { railroads: { pieces: 4, names: {}, rent_in_dollars: {} } }
- end	 end
+	 end
  	 
  def monopoly_with_third_tier	 def monopoly_with_third_tier
  	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!	 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
